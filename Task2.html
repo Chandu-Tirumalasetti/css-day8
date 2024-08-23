@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day8 Task2</title>
+    <style>
+        .container{
+                   display: grid;
+                   grid-template-columns: repeat(4,20%);
+                   gap: 2% 2%;
+                  }
+             .box1{
+                   border: 0px solid;
+                   height:500px ;
+                  }
+              img{
+                   width: 100%;
+                   height: 330px;
+                 }
+               .a{
+                   font-family:Verdana, Geneva, Tahoma, sans-serif;
+                   text-align: center;
+                   font-size: 20px;
+                   margin-top: 0px;
+                 }   
+               .b{
+                  color: grey;
+                  text-align: center;
+               }
+
+               @media only screen and (width<1000px)
+               {
+                .container{
+                      grid-template-columns: auto auto;
+                }
+               } 
+
+               @media only screen and (width<450px)
+               {
+                .container{
+                      grid-template-columns: auto;
+                          }
+               }           
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+             <img src="dish1.jpg" alt="image broken">
+             <p class="a">The Perfect <br>
+                Sandwich, A Real <br>
+                NYC Classic</p>
+             <p class="b">Just some random text, lorem ipsum text
+                 praesent tincidunt ipsum lipsum.</p>   
+        </div>
+
+        <div class="box1">
+            <img src="dish2.jpg" alt="image broken">
+            <p class="a">Let Me Tell You <br>
+                 About This Steak</p>
+            <p class="b">Once again, some random text to lorem 
+                lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>   
+       </div>
+
+       <div class="box1">
+        <img src="dish3 cherries.jpg" alt="image broken">
+        <p class="a">Cherries,<br> interrupted</p>
+        <p class="b">Lorem ipsum text praesent tincidunt ipsum lipsum.
+            What else?</p>   
+   </div> 
+   
+   <div class="box1">
+    <img src="dish4 wine.jpg" alt="image broken">
+    <p class="a">Once Again, Robust <br>
+                 Wine and Vegetable <br>
+                 Pasta</p>
+    <p class="b">Lorem ipsum text praesent tincidunt ipsum lipsum.</p>   
+    </div>
+
+   <div class="box1">
+    <img src="dish5 popsicle.jpg" alt="image broken">
+    <p class="a">All I Need Is a <br>Popsicle</p>
+    <p class="b">Lorem ipsum text praesent tincidunt ipsum lipsum.</p>   
+   </div>
+
+   <div class="box1">
+    <img src="dish6 salmon.jpg" alt="image broken">
+    <p class="a">Salmon For Your <br>Skin</p>
+    <p class="b">Once again, some random text to lorem lorem
+         lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>   
+    </div>
+
+    <div class="box1">
+        <img src="dish7 sandwich.jpg" alt="image broken">
+        <p class="a">The Perfect <br>Sandwich, A Real <br> Classic</p>
+        <p class="b">Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>   
+     </div>
+
+     <div class="box1">
+        <img src="dish8 croissant.jpg" alt="image broken">
+        <p class="a">Le French</p>
+        <p class="b">Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>   
+     </div>
+
+    </div>
+</body>
+</html>
